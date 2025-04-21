@@ -41,7 +41,8 @@ def parse_input(input_file):
 
     return base_X, indices_X, base_Y, indices_Y
 
-def dp_baisc():
+def dp_basic(X,Y,gap_penalty,mismatch_penalty):
+    
 
 
 def basic_algo(input_file, output_file):
@@ -49,6 +50,13 @@ def basic_algo(input_file, output_file):
     base_X, indices_X, base_Y, indices_Y = parse_input(input_file)
     X = generate_str(base_X, indices_X)
     Y = generate_str(base_Y, indices_Y)
+
+    #mismatch penalty and gap penalty
+    delta = 30
+    alpha = {'A':{0,110,48,94},
+             'C':{110,0,118,48},
+             'G':{48,118,0,110},
+             'T':{94,48,110,0}}
 
     #memory and time at start time
     process = psutil.Process()
