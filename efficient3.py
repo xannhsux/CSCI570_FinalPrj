@@ -15,7 +15,7 @@ def create_output(output, dp_cost, align_X, align_Y, time_taken, memory_consumed
         f.write(f"{time_taken:.3f}\n")
         f.write(f"{memory_consumed:.1f}\n")
 
-def basic_algorithm(input_file, output_file):
+def efficient_algo(input_file, output_file):
     #find X Y alignment string
     align_X = None
     align_Y = None
