@@ -1,0 +1,5 @@
+Total cost:    168
+X aligned:     CCAC_CA_GG
+Y aligned:     _CATGCAT_G
+Time (ms):     0.088
+Memory (KB):   1.7

@@ -1,0 +1,5 @@
+Total cost:    960
+X aligned:     CTTCTCTTCTT__CTT__CCCTTCCT__CTT__CC__CTT__C__C__
+Y aligned:     C__C_C__C__GAC__GACCC__CC_GAC__GACCGAC__GACGACGA
+Time (ms):     3.233
+Memory (KB):   10.2
